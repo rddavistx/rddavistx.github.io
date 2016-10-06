@@ -1,0 +1,237 @@
+p#right {
+  color: #0000ff;
+  font-size: 50px;
+  padding-top: 30px;
+}
+p#left {
+  font-size: 30px;
+  padding-top: 20px;
+}
+a {
+  font-size: 20px;
+}
+.navbar-default {
+  background-color: white;
+  border-style: hidden;
+  padding-top: 40px;
+  height: 200px;
+}
+img {
+  height: 300px;
+  display: block;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 50px;
+}
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  margin-left: 50px;
+}
+h2 {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 60px;
+  padding-top: 25px;
+}
+.social {
+  margin: 70px 0 120px 0;
+  padding: 0;
+  text-align: center;
+}
+.social ul {
+  margin: 0;
+  padding: 5px;
+}
+.social ul li {
+  margin: 10px 30px;
+  list-style: none outside none;
+  display: inline-block;
+}
+.social i {
+  width: 40px;
+  height: 40px;
+  color: #FFF;
+  background-color: #0000FF;
+  font-size: 22px;
+  text-align: center;
+  padding-top: 12px;
+  border-radius: 50%;
+}
+
+.social i:hover {
+  transform: scale(1.5, 1.5);
+  opacity: 1;
+}
+
+h3 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+p {
+  font-family: "Raleway", sans-serif;
+  font-size: 25px;
+}
+@media screen and (min-width:768px) {
+  .navbar-brand-centered {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    background-color: transparent;
+  }
+
+  .popup {
+    width: 100%;
+  }
+}
+.parallax {
+  /* The image used */
+  background-image: url("../img/austin.png");
+  background-color: white;
+  height: 500px;
+  font-size: 36px;
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("../img/IMG_0010.jpg");
+  background-color: white;
+  height: 600px;
+  font-size: 36px;
+  /* Set a specific height */
+  min-height: 500px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/*img#band {
+  height: 300px;
+  width: 500px;
+  margin-top: 20px;
+  display:inline;
+  border-radius: 0;
+}*/
+
+.pic1 {
+  width: 500px;
+  height: 300px;
+  background: url("../img/PMS_band.png");
+  background-size: cover;
+  background-position: center;
+}
+.text {
+  width: 500px;
+  height: 300px;
+  background: #FFF;
+  opacity: 0;
+  text-align: center;
+}
+.pic1:hover .text {
+  opacity: 0.8;
+  text-align: justify;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+}
+.pic2 {
+  width: 500px;
+  height: 300px;
+  background: url("../img/petfinder.png");
+  background-size: cover;
+  margin-bottom: 100px;
+}
+.pic2:hover .text {
+  opacity: 0.8;
+  text-align: justify;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+}
+.pic3 {
+  width: 500px;
+  height: 300px;
+  background: url("../img/urbanlibs.png");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 100px;
+}
+.pic3:hover .text {
+  opacity: 0.8;
+  text-align: justify;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+}
+.pic4 {
+  width: 500px;
+  height: 300px;
+  background: url("https://placehold.it/500x300");
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 50px;
+}
+.pic4:hover .text {
+  opacity: 0.8;
+  text-align: justify;
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Times New Roman", Times, serif;
+  padding: 30px;
+}
+
+
+img#resume {
+  display: none;
+  width: 600px;
+  height: 800px;
+  border-radius: 0;
+  border: 2px solid black;
+}
+
+.collapse {
+  padding-top: 100px;
+  border-style: hidden;
+}
+
+.contact {
+  display: none;
+  text-align: center;
+  padding-top: 50px;
+
+}
+
+@media (max-width : 1200px) {
+  .pic {
+    display: block;
+    margin: 0 auto;
+  }
+  .title {
+    text-align: center;
+    padding-top: 50px;
+  }
+  .nav {
+    color: black;
+  }
+}

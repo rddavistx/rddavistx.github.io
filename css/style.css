@@ -186,7 +186,7 @@ p {
 .pic4 {
   width: 500px;
   height: 300px;
-  background: url("https://placehold.it/500x300");
+  background: url("../img/onlinepr.png");
   background-size: cover;
   background-position: center;
   margin-bottom: 50px;

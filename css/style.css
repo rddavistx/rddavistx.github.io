@@ -10,6 +10,10 @@ p#left {
 a {
   font-size: 20px;
 }
+
+.top {
+  margin: 0 100px 0 100px;
+}
 .navbar-default {
   background-color: white;
   border-style: hidden;

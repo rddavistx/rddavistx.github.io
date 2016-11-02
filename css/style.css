@@ -1,7 +1,9 @@
-p#right {
+p#right a {
   color: #0000ff;
   font-size: 50px;
   padding-top: 30px;
+  text-decoration: none;
+
 }
 p#left {
   font-size: 30px;
@@ -10,6 +12,8 @@ p#left {
 a {
   font-size: 20px;
 }
+
+
 
 .top {
   margin: 0 100px 0 100px;
@@ -24,7 +28,7 @@ img {
   height: 300px;
   display: block;
   margin: auto;
-  margin-top: 200px;
+  margin-top: 250px;
   border-radius: 50px;
 }
 h2 {
@@ -112,15 +116,15 @@ p {
   /* The image used */
   background-image: url("../img/IMG_0010.jpg");
   background-color: white;
-  height: 600px;
+  height:500px;
   font-size: 36px;
   /* Set a specific height */
-  min-height: 500px;
+  min-height:500px;
   /* Create the parallax scrolling effect */
-  background-attachment: fixed;
+  background-attachment:fixed;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size:contain;
 }
 
 /*img#band {
@@ -205,13 +209,23 @@ p {
   padding: 30px;
 }
 
+#projects {
+  height: 1000px;
+}
 
-img#resume {
+
+/*img#resume {
   display: none;
   width: 600px;
   height: 800px;
   border-radius: 0;
   border: 2px solid black;
+}*/
+
+iframe {
+  padding-top: 200px;
+  display:block;
+  margin: 0 auto;
 }
 
 .collapse {

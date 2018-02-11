@@ -1,189 +1,369 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Richard Davis' Portfolio</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Raleway:500,700,800" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,600i" rel="stylesheet">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Richard Davis- Web Developer</title>
+<meta name="description" content="">
+<meta name="author" content="">
 
-  <link rel="stylesheet" href="css/animate.css">
-  <link rel="stylesheet" href="css/style.css">
+<!-- Favicons
+    ================================================== -->
+    <link rel="icon" type="image/png" href="img/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="img/favicon-16x16.png" sizes="16x16" />
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
+
+<!-- Bootstrap -->
+<link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+
+
+<!-- Stylesheet
+    ================================================== -->
+<link rel="stylesheet" type="text/css"  href="css/style2.css">
+<link href='http://fonts.googleapis.com/css?family=Lato:400,700,900,300' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,800,600,300' rel='stylesheet' type='text/css'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+
+
 </head>
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
-<body>
-
-  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container-fluid">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-brand-centered">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <div class="navbar-brand navbar-brand-centered">
-          <p id="right" class="animated slideInRight"><a href="#">Richard Davis</a></p>
-          <p id="left" class="animated slideInLeft">Web Developer</p>
+<!-- Header -->
+<header id="header">
+  <div class="intro">
+    <div class="container">
+      <div class="row">
+        <div class="intro-text">
+          <div>
+          <h1>Hello, I'm <span class="name">Richard Davis</span></h1>
+          <p>Web Developer</p>
+          <a href="#about" class="btn btn-default btn-lg page-scroll">Learn More</a> </div>
         </div>
       </div>
+    </div>
+  </div>
+</header>
+<!-- Navigation -->
+<div id="nav">
+  <nav class="navbar navbar-custom">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse"> <i class="fa fa-bars"></i> </button>
+        <a class="navbar-brand page-scroll" href="#page-top">Richard Davis</a> </div>
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="navbar-brand-centered">
+      <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
         <ul class="nav navbar-nav">
-          <li class="top"><a href="#about">About Me</a></li>
-          <li class="top"><a href="#projects">Projects</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li class="top"><a href="#" id="resumeLink">Resume</a></li>
-          <li class="top"><a href="#" id="contactMe">Contact Me</a></li>
+          <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+          <li class="hidden"> <a href="#page-top"></a> </li>
+          <li> <a class="page-scroll" href="#about">About</a> </li>
+          <li> <a class="page-scroll" href="#skills">Skills</a> </li>
+          <li> <a class="page-scroll" href="#portfolio">Portfolio</a> </li>
+          <li> <a class="page-scroll" href="#resume">Resume</a> </li>
+          <li> <a class="page-scroll" href="#contact">Contact</a> </li>
         </ul>
       </div>
-      <!-- /.navbar-collapse -->
     </div>
-    <!-- /.container-fluid -->
   </nav>
-  <div class="me">
-    <img src="img/davis.jpeg" alt="Richard Davis"/>
-
-
-  <div class="contact">
-    <p>
-      Richard Davis
-    </p>
-    <a href="mailto:richddavistx@gmail.com">
-      richddavistx@gmail.com</a>
-    </p>
-    <p>
-      <a href="tel:512-351-2227">512-351-2227</a>
-    </p>
+</div>
+<!-- About Section -->
+<div id="about">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>About Me</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center"><img src="img/davis.jpeg" class="img-responsive"></div>
+      <div class="col-md-8 col-md-offset-2">
+        <div class="about-text">
+          <p>After 26 years in the classroom as a band director, I decided to take a leap of faith and go for a career as a full stack web developer. I have always had a passion for creativity and problem solving, which makes web development a perfect fit for me.</p>
+          <p>I consider myself a life-long student, so I am constantly working to learn and improve my coding skills to the highest level possible. When I'm not coding, I enjoy spending time with my wife and our two amazing kids.</p>
+          <p class="text-center"><a class="btn btn-primary" href="Richard Davis Resume.pdf" download><i class="fa fa-download"></i> Download Resume</a></p>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
-
-<!-- <img id="resume" src="img/Richard Davis resume.jpg"/> -->
-<!-- <iframe id="resume" src="https://drive.google.com/file/d/0B7wkfJuvCjWnZ01ndnpwR2RYUkE/preview" width="640" height="1000"></iframe> -->
-
-<iframe id="resume" src="https://drive.google.com/file/d/1hwzz11A_cJsDSb73g5mUMLTuVIeODwd7/preview" width="640" height="1000"></iframe>
-
-
-
-  <div class="social">
-    <ul>
-      <li><a href="http://www.facebook.com/richard.davis.9216"><i class="fa fa-lg fa-facebook"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/richardddavis"><i class="fa fa-lg fa-linkedin"></i></a></li>
-      <li><a href="https://github.com/rddavistx"><i class="fa fa-lg fa-github"></i></a></li>
-      <li><a href="mailto:richddavistx@gmail.com"><i class="fa fa-lg fa-envelope-o"></i></a></li>
-    </ul>
-  </div>
-
-  <div class="parallax"></div>
-
-  <div id="about">
-    <h2>About Me</h2>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <h3>Life Experience</h3>
-          <p>
-            After 26 years in the classroom as a band director, I decided to take a leap of faith and go for a career as a full stack web developer. I have always had a passion for creativity and problem solving, which makes web development a perfect fit for me.
-          </p>
-        </div>
-
-        <div class="col-lg-12">
-          <h3>Programming Experience</h3>
-          <p>My previous experience includes working as a web developer at 360Connect, where I was responsible for building and maintaining the company's websites, as well as testing for optimization and cross browser compatibilty.<p>
-          <p>
-            Before that, I completed a 12-week immersive training program at General Assembly designed to teach the fundamentals of full-stack programming. In this class, I learned how to build quality programs with teams and on individual projects. I gained valuable experience working with HTML/CSS, Javascript and JQuery, databases, Express, ReactJS, PHP, Wordpress, and other frameworks.
-          </p>
-        </div>
-
+<!-- Skills Section -->
+<div id="skills" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Skills</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 skill"> <i class="fab fa-html5 fa-10x"></i>
+        <h4>HTML5</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"> <i class="fab fa-css3-alt fa-10x"></i>
+        <h4>CSS3</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"><i class="fab fa-js-square fa-10x"></i>
+        <h4>Javascript</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"><i class="fab fa-wordpress-simple fa-10x"></i>
+        <h4>WordPress</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"><i class="fab fa-php fa-10x"></i>
+        <h4>PHP</h4>
+      </div>
+      <div class="col-md-4 col-sm-6 skill"><i class="fab fa-react fa-10x"></i>
+        <h4>React</h4>
       </div>
     </div>
   </div>
+</div>
+<!-- Portfolio Section -->
+<div id="portfolio">
+  <div class="container">
+    <div class="section-title text-center center">
+      <h2>Portfolio</h2>
+      <hr>
+    </div>
+    <div class="categories">
 
-
-
-
-  <div class="parallax2"></div>
-
-  <div id="projects">
-    <h2>Projects</h2>
-    <div class="container">
-      <div class="row">
+      <div class="clearfix"></div>
+    </div>
+    <div class="row">
+      <div class="portfolio-items">
         <div class="col-lg-6">
           <a href="https://www.container-quotes.com/"><h3 class="title">container-quotes.com</h3></a>
           <div class="pic5 pic">
             <div class="text">
-              <p>Example of website built for 360Connect built in Wordpress.I used a custom theme and advanced custom fields to create an options page that integrated a custom background into a single template that was used within a multi-site setup .</p>
+              <ul>
+                <li>Responsive site built in Wordpress</li>
+                <li>Uses Advanced Custom Fields for multi-site setup</li>
+                <li>Designed in Bootstrap</li>
+                <li>Javascript input validation</li>
+              </ul>
             </div>
           </div>
         </div>
-
         <div class="col-lg-6">
           <a href="https://www.360mobileoffice.com/"><h3 class="title">360mobileoffice.com</h3></a>
           <div class="pic6 pic">
             <div class="text">
-              <p>Example of a theme site built for 360Connect using Wordpress and advanced custom fields to use within a multi-site setup.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <div class="row">
-        <div class="col-lg-6">
-          <a href="https://rddavistx.github.io/BandPage"><h3 class="title">Paredes Band Web Page</h3></a>
-          <div class="pic1 pic">
-            <div class="text">
-              <p>This is my first website for my band program that I built while I was teaching using basic HTML and css.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <a href="https://petfinder-final.herokuapp.com/"><h3 class="title">Petfinder</h3></a>
-          <div class="pic2 pic">
-            <div class="text">
-              <p>My first group project at GA using express.js and mongoose.</p>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="row">
-        <div class="col-lg-6">
-          <a href="https://llemonggang.github.io/UrbanLibs/"><h3 class="title">UrbanLibs</h3></a>
-          <div class="pic3 pic">
-            <div class="text">
-              <p>My final group project at GA using react.js and mongo DB.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-6">
-          <a href="https://practice-records.herokuapp.com/"><h3 class="title">Online Practice Records</h3></a>
-          <div class="pic4 pic">
-            <div class="text">
-              <p>My final project at GA using PHP and mysql</p>
+              <ul>
+                <li>Responsive site built in Wordpress using a custom theme</li>
+                <li>Cumstom templates for different pages</li>
+                <li>Uses Advanced Custom Fields</li>
+                <li>Javascript input validation</li>
+              </ul>
             </div>
           </div>
         </div>
       </div>
     </div>
+
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-lg-6">
+          <a href="https://rddavistx.github.io/BandPage"><h3 class="title">Paredes Band Web Page</h3></a>
+          <div class="pic1 pic">
+            <div class="text">
+              <ul>
+                <li>Basic HTML/CSS site</li>
+                <li>Designed with Bootstrap</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <a href="https://petfinder-final.herokuapp.com/"><h3 class="title">Petfinder</h3></a>
+          <div class="pic2 pic">
+            <div class="text">
+              <ul>
+                <li>My first group project with students from GA</li>
+                <li>Built with Express framework</li>
+                <li>Uses MongoDB database</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="portfolio-items">
+        <div class="col-lg-6">
+          <a href="https://llemonggang.github.io/UrbanLibs/"><h3 class="title">UrbanLibs</h3></a>
+          <div class="pic3 pic">
+            <div class="text">
+              <ul>
+                <li>My final group project with students from GA</li>
+                <li>Built with React javascript library</li>
+                <li>Uses MongoDB database</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <a href="https://practice-records.herokuapp.com/"><h3 class="title">Online Practice Records</h3></a>
+          <div class="pic4 pic">
+            <div class="text">
+              <ul>
+                <li>My final project at GA</li>
+                <li>Built with PHP</li>
+                <li>Uses mySQL database</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+      </div>
+    </div>
+
+
+<!-- Resume Section -->
+<div id="resume" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Experience</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <h4>Jan 2017<br>
+                - <br>
+                Jan 2018 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>360 Connect</h4>
+                <h4 class="subheading">Web Developer</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Responsible for development and maintenance of company websites. Ensured optimal user experience through A/B testing and use of web optimization tools.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>Oct 1991 <br>
+                - <br>
+                June 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>Austin ISD</h4>
+                <h4 class="subheading">Band Director</h4>
+              </div>
+              <div class="timeline-body">
+                <p>Responsible for development and implementation of educational curriculum for large middle school band program</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
-  <!-- </div> -->
+  <div class="container">
+    <div class="section-title center">
+      <h2>Education</h2>
+      <hr>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+        <ul class="timeline">
 
+          <!-- Education Section-->
 
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
-  <script src="js/style.js" type="text/javascript"></script>
-  </script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+          <li>
+            <div class="timeline-image">
+              <h4>Aug 2016 <br>
+                - <br>
+                Oct 2016 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>General Assembly</h4>
+                <h4 class="subheading">Web Development Immersive Class</h4>
+              </div>
+              <div class="timeline-body">
+                <p>A 12-week program where I learned the basics of front and back end web development using current development tools and techniques.</p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <h4>1983 <br>
+                - <br>
+                1988 </h4>
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4>University of Texas</h4>
+                <h4 class="subheading">Bachelor Degree of Music</h4>
+              </div>
+              <div class="timeline-body">
+              </div>
+            </div>
+          </li>
 
-  </script>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Contact Section -->
+<div id="contact" class="text-center">
+  <div class="container">
+    <div class="section-title center">
+      <h2>Contact</h2>
+      <hr>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+      <div class="col-md-6"> <i class="far fa-envelope fa-2x"></i>
+        <a href="mailto:richddavistx@gmail.com"><p>richddavistx@gmail.com</p></a>
+      </div>
+      <div class="col-md-6"> <i class="fa fa-phone fa-2x"></i>
+        <a href="tel:512-351-2227"><p> +1 512 351 2227</p></a>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <div class="col-md-8 col-md-offset-2">
+
+      <div class="social">
+        <ul>
+          <li><a href="https://www.facebook.com/richard.davis.9216"><i class="fab fa-facebook-square fa-2x"></i></a></li>
+          <li><a href="https://github.com/rddavistx"><i class="fab fa-github-square fa-2x"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/richardddavis/"><i class="fab fa-linkedin fa-2x"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+<div id="footer">
+  <div class="container text-center">
+    <div class="fnav">
+      <p>Copyright &copy; 2018 Richard Davis </p>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="js/jquery.1.11.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script href="https://cdnjs.cloudflare.com/ajax/libs/smooth-scroll/12.1.5/js/smooth-scroll.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.isotope.js"></script>
+<script href="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/main.js"></script>
+<script>$(".navbar-nav li a").click(function(event) {
+    if (!$(this).parent().hasClass('dropdown'))
+        $(".navbar-collapse").collapse('hide');
+});
+
+</script>
 </body>
-
 </html>
